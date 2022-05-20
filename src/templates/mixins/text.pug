@@ -1,0 +1,14 @@
+mixin text(bgcolor, padding)
+  tr
+    td(width="100%" style="width: 100%" valign="top")
+      table(width="100%" style="width: 100%" bgcolor=bgcolor || 'transparent' border="0" cellspacing="0" cellpadding="0")
+        if (!padding)
+          tr
+            +spacer(20, 'mobile-hide_mod')
+            +spacer(28)
+            block
+            +spacer(28)
+            +spacer(20, 'mobile-hide_mod')
+        else 
+          tr
+            block

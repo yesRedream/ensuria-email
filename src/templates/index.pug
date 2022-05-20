@@ -1,0 +1,452 @@
+extends layouts/main
+
+include mixins/spacer
+include mixins/text
+include mixins/img
+
+block content
+  td(valign="top" align="center" style="margin:0;padding:0;")
+    table.main-table.main-background(width="580" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff")
+      tr
+        td(style="width: 100%;")
+          table(border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="margin:0;padding:0;")
+            tr
+              td(valign="top" align="center")
+                table.table-content(width="700" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff")
+                  tr
+                    +spacer(48)
+                    
+                  +text
+                    td.mobile-float_mod(width="100%" style="width: 100%" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        tr
+                          td
+                            a(href="") 
+                              img.main-logo__img(src="images/logo.png" alt="Ensuria logo" width="94px")
+                        
+                        tr
+                          +spacer(40)
+                        
+                        +text("", "padding")
+                          td.main-title
+                            span.main-title Дякуємо що обрали нас!
+
+                        tr
+                          +spacer(8)
+
+                        +text("", "padding")
+                          td.main-title__text
+                            span.main-title__text Замовлення  
+                            span.main-title__text.main-title__text--darker № EN49394 
+                            span.main-title__text успішно оформлено.
+                            br
+                            span.main-title__text Ми прикріпили ваші страхові поліси до цього листа
+
+                        tr
+                          +spacer(35)
+
+                    td.mobile-float_mod.main-img__wrap(align="center" valign="bottom")
+                      a(href="#" style="height: 208px; display: block") 
+                        img(src="images/mock.png" alt="Ensuria img" width="232px")
+                        
+
+                  +text("#F2F4FC")
+                    td.mobile-float_mod(width="100%" style="width: 100%;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        tr
+                          +spacer(20)
+
+                        +text("", "padding")
+                          td.main-title.main-title--smaller
+                            span.main-title.main-title--smaller Мобільний застосунок, що турбується
+
+                        tr
+                          +spacer(4)
+
+                        +text("", "padding")
+                          td.main-text.main-text--small
+                            span.main-text.main-text--small Завантаж та отримуй допомогу де б ти не був
+
+                        tr
+                          +spacer(20)
+
+                    td.mobile-float_mod.main-img__wrap(align="center" valign="bottom")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        tr
+                          td( style="padding: 0 6px 0 0;")
+                            a(href="#" style="height: 34px; display: block") 
+                              img(src="images/google-play.png" alt="Google play" width="116px")
+                          td( style="padding: 0 6px;" )
+                            a(href="#" style="height: 34px; display: block") 
+                              img(src="images/app-store.png" alt="App store" width="101px")
+
+                        tr
+                          +spacer(20)
+
+                  tr
+                    +spacer(28)
+
+                  +text
+                    td.main-title.main-title--small
+                      span.main-title.main-title--small Деталі замовлення
+                  
+                  tr
+                    +spacer(16)
+
+                  +text
+                    td.mobile-float_mod(width="50%" style="width: 50%; padding: 0 15px 0 0;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        +text("", "padding")
+                          td.main-label
+                            span.main-label Страхувальник (платник)
+
+                        tr
+                          +spacer(4)
+
+                        +text("", "padding")
+                          td.main-text
+                            span.main-text Andrii Kolomiiets
+
+                        tr
+                          +spacer(16)
+
+                    td.mobile-float_mod(width="50%" style="width: 50%; padding: 0 15px 0 0;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        +text("", "padding")
+                          td.main-label
+                            span.main-label Страхова премія
+
+                        tr
+                          +spacer(4)
+
+                        +text("", "padding")
+                          td.main-text
+                            span.main-text 1200,22 грн
+
+                        tr
+                          +spacer(16)
+
+                  
+
+                  +text
+                    td.mobile-float_mod(width="50%" style="width: 50%; padding: 0 15px 0 0;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        +text("", "padding")
+                          td.main-label
+                            span.main-label Дата замовлення
+
+                        tr
+                          +spacer(4)
+
+                        +text("", "padding")
+                          td.main-text
+                            span.main-text Пн, апр. 22, 2021 в 17:40
+
+                        tr
+                          +spacer(16)
+
+                    td.mobile-float_mod(width="50%" style="width: 50%; padding: 0 15px 0 0;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        +text("", "padding")
+                          td.main-label
+                            span.main-label Территорія дії покриття
+
+                        tr
+                          +spacer(4)
+
+                        +text("", "padding")
+                          td.main-text
+                            span.main-text Europe
+
+                        tr
+                          +spacer(16)
+
+
+                  +text
+                    td.mobile-float_mod(width="50%" style="width: 50%; padding: 0 15px 0 0;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        +text("", "padding")
+                          td.main-label
+                            span.main-label Страхова компанія
+
+                        tr
+                          +spacer(4)
+
+                        +text("", "padding")
+                          td.main-text
+                            span.main-text Ensuria (за підтримки Uniqa)
+
+                        tr
+                          +spacer(16)
+
+                    td.mobile-float_mod(width="50%" style="width: 50%; padding: 0 15px 0 0;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        +text("", "padding")
+                          td.main-label
+                            span.main-label Термін дії
+
+                        tr
+                          +spacer(4)
+
+                        +text("", "padding")
+                          td.main-text
+                            span.main-text с 01.02.2021 по 01.03.2022 (365 дней)
+
+                        tr
+                          +spacer(16)
+
+
+                  tr
+                    +spacer(10)
+
+                  tr 
+                    +text
+                      td.mobile-float_mod(width="100%" style="border-top: 1px solid #E3E3E3" valign="top")
+
+                  +text
+                    td.main-title.main-title--small
+                      span.main-title.main-title--small Служба турботи Ensuria
+
+                  tr
+                    +spacer(4)
+
+                  +text
+                    td.main-text.main-text--lighter
+                      span.main-text.main-text--lighter Якщо під час поїздки стався страховий випадок та вам потрібна допомога, ви можете звернутися до служби турботи 24/7
+
+                  tr
+                    +spacer(15)
+
+
+
+
+                  +text
+                    td(width="100%" style="width: 100%; border: 1px solid #E3E3E3; border-bottom: none" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        tr
+                          +spacer(10)
+                          +spacer(10)
+                          +spacer(10)
+                        tr  
+                          td(valign="top" width="33%" style="width: 33%;").mobile-float_mod
+                            table(bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                              +text("", "padding")
+                                +spacer(10)
+                                td(valign="top")
+                                  a(href="")
+                                    img.contact-img(src="images/contact-1.png" alt="International line icon")
+                                +spacer(12)
+                                
+                                td(width="100%" style="width: 100%;" valign="top")
+                                  table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--l
+                                        span.contact-text.contact-text--l +1 855 999 88 66
+
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--s
+                                        span.contact-text.contact-text--s International line (toll-free)
+
+                                    tr
+                                      td(style="height: 10px")
+
+
+                          td(valign="top" width="33%" style="width: 33%;").mobile-float_mod
+                            table(bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                              +text("", "padding")
+                                +spacer(10)
+                                td(valign="top")
+                                  a(href="")
+                                    img.contact-img(src="images/contact-2.png" alt="Ukrainian line icon")
+                                +spacer(12)
+                                
+                                td(width="100%" style="width: 100%;" valign="top")
+                                  table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--l
+                                        span.contact-text.contact-text--l +38 044 39 0000 5
+
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--s
+                                        span.contact-text.contact-text--s Ukrainian line
+
+                                    tr
+                                      td(style="height: 10px")
+
+
+                          td(valign="top" width="33%" style="width: 33%;").mobile-float_mod
+                            table(width="100%" style="width: 100%;" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                              +text("", "padding")
+                                +spacer(10)
+                                td(valign="top")
+                                  a(href="")
+                                    img.contact-img(src="images/contact-3.png" alt="Email icon")
+                                +spacer(12)
+                                
+                                td(width="100%" style="width: 100%;" valign="top")
+                                  table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--l
+                                        span.contact-text.contact-text--l care@ensuria.com
+
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--s
+                                        span.contact-text.contact-text--s Email
+
+                                    tr
+                                      td(style="height: 10px")
+                        //- tr
+                        //-   +spacer(10)
+                        //-   +spacer(10)
+                        //-   +spacer(10)
+  
+
+
+                  +text
+                    td(width="100%" style="width: 100%; border: 1px solid #E3E3E3; border-right: none" valign="top")
+                      table(width="100%" style="width: 100% " bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        tr 
+                          td(valign="top" align="center" width="25%" style="width: 25%; border-right: 1px solid #E3E3E3").mobile-float_mod
+                            table(bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                              +text("", "padding")
+                                td(valign="top")
+                                  a(href="")
+                                    img.contact-img(src="images/contact-4.png" alt="Telegram icon")
+                                +spacer(12)
+                                
+                                td(width="100%" style="width: 100%;" valign="top")
+                                  table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                                    +text("", "padding")
+                                      td.contact-text
+                                        span.contact-text Telegram
+
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--s
+                                        span.contact-text.contact-text--s @ensuriabot
+
+                                    tr
+                                      td(style="height: 10px")
+
+                          td(valign="top" align="center" width="25%" style="width: 25%; border-right: 1px solid #E3E3E3").mobile-float_mod
+                            table(bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                              +text("", "padding")
+                                td(valign="top")
+                                  a(href="")
+                                    img.contact-img(src="images/contact-5.png" alt="Viber icon")
+                                +spacer(12)
+                                
+                                td(width="100%" style="width: 100%;" valign="top")
+                                  table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                                    +text("", "padding")
+                                      td.contact-text
+                                        span.contact-text Viber
+
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--s
+                                        span.contact-text.contact-text--s Click here
+
+                                    tr
+                                      td(style="height: 10px")
+
+                          td(valign="top" align="center" width="25%" style="width: 25%; border-right: 1px solid #E3E3E3").mobile-float_mod
+                            table(bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                              +text("", "padding")
+                                td(valign="top")
+                                  a(href="")
+                                    img.contact-img(src="images/contact-6.png" alt="Messenger  icon")
+                                +spacer(12)
+                                
+                                td(width="100%" style="width: 100%;" valign="top")
+                                  table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                                    +text("", "padding")
+                                      td.contact-text
+                                        span.contact-text Messenger 
+
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--s
+                                        span.contact-text.contact-text--s @ensuriacom
+
+                                    tr
+                                      td(style="height: 10px")
+
+                          td(valign="top" align="center" width="25%" style="width: 25%; border-right: 1px solid #E3E3E3").mobile-float_mod
+                            table(bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                              +text("", "padding")
+                                td(valign="top")
+                                  a(href="")
+                                    img.contact-img(src="images/contact-7.png" alt="Online chat icon")
+                                +spacer(12)
+                                
+                                td(width="100%" style="width: 100%;" valign="top")
+                                  table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                                    +text("", "padding")
+                                      td.contact-text
+                                        span.contact-text Online chat
+
+                                    +text("", "padding")
+                                      td.contact-text.contact-text--s
+                                        span.contact-text.contact-text--s ensuria.me/chat
+
+                                    tr
+                                      td(style="height: 10px")
+
+                   
+                  tr
+                    +spacer(30)
+
+
+
+
+                  +text
+                    td.mobile-float_mod(width="35%" style="width: 35%;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        +text("", "padding")
+                          td.main-text.main-text--lighter(style="padding: 0 37px 0 0;")
+                            span.main-text.main-text--lighter Приєднуйся до спільноти Ensuria у соцмережах та слідкуй за нами ❤️
+                        tr
+                          +spacer(20)
+
+                        
+                    td.mobile-float_mod(width="65%" style="width: 65%;" valign="top")
+                      table(bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        tr 
+                          td(valign="center")
+                            table(border="0" cellpadding="0" cellspacing="0" bgcolor="transparent")
+                              tr
+                                td 
+                                  a(href="")
+                                    img.social-img(src="images/social-1.png" alt="facebook")
+                                td 
+                                  a(href="")
+                                    img.social-img(src="images/social-2.png" alt="instagram")
+                                td 
+                                  a(href="")
+                                    img.social-img(src="images/social-3.png" alt="youtube")
+                                td 
+                                  a(href="")
+                                    img.social-img(src="images/social-4.png" alt="twitter")
+                                td 
+                                  a(href="")
+                                    img.social-img(src="images/social-5.png" alt="tiktok")
+                  tr
+                    +spacer(40)
+
+                  +text("#F2F2F2")
+                    td.mobile-float_mod(width="100%" style="width: 100%;" valign="top")
+                      table(width="100%" style="width: 100%" bgcolor='transparent' border="0" cellspacing="0" cellpadding="0")
+                        tr
+                          +spacer(32)
+
+                        +text("", "padding")
+                          td
+                            a(href="")
+                              img.logo-small(src="images/logo-small.png" alt="viber")
+                          td.main-text.main-text--footer(width="100%")
+                            span.main-text.main-text--footer 
+                              | © 2022 Ensuria Technologies OU 
+                              br
+                              | hello@ensuria.com | www.ensuria.com
+
+                        tr
+                          +spacer(32)
+

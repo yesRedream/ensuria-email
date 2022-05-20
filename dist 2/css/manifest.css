@@ -1,0 +1,163 @@
+html {
+  height:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+  width:100% !important;
+}
+body {
+  height:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+  width:100% !important;
+  background: #F2F2F2;
+
+}
+.main-table-wrapper {
+  width: 100%;
+  margin:0 auto;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 55px;
+  background: #F2F2F2;
+}
+.main-table {
+  margin:0 auto;
+  padding:0;
+  width: 100%;
+  max-width: 700px;
+  min-width: 320px;
+  font-family: sans-serif;
+}
+.table-content--bg .main-text--link {
+    font-weight: 500;
+  }
+.table-content {
+  margin:0 auto;
+  padding:0;
+  width: 100%;
+  font-family: sans-serif;
+}
+.main-img {
+  width: 100%;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+img.main-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+
+img.main-logo__img {
+  display: block;
+  width: 94px;
+  height: auto;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+.main-logo__link {
+  vertical-align: center;
+  font-size: 12px;
+  color: #909597;
+  text-decoration: none;
+}
+.main-title__wrap .spacer {
+    font-size: 0;
+    line-height: 4px;
+  }
+.main-img__wrap {
+  padding: 0 0 0 50px;
+}
+.main-title__text {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #748299;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.main-title__text--darker {
+  color: #323254;
+  font-weight: 400;
+}
+.main-text {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #323254;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.main-text--link {
+  color: #0496FF;
+  text-decoration: none;
+}
+.main-text--lighter {
+  color: #000000;
+  opacity: .5;
+}
+.main-text--footer {
+  font-size: 10px !important;
+  line-height: 1.8;
+  color: #868686;
+
+}
+.main-text--line-height {
+  line-height: 1.5;
+}
+.main-title {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #323254;
+  font-family: sans-serif;
+}
+.main-title--small {
+  font-size: 16px;
+  font-weight: 500;
+}
+.main-label {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #323254;
+  opacity: 0.5;
+}
+.contact-img {
+  width: 16px;
+  height: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.unsubsribe-text a {
+  color: #B6B6B6;
+  font-size: 12px;
+  font-family: sans-serif;
+
+}
+.main-link {
+  color: #0496FF;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.main-link--phone {
+  color: #323254;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.main-link--mail {
+  font-size: 10px !important;
+  white-space: nowrap;
+}
+.logo-small {
+  width: 32px;
+  height: auto;
+  padding: 0 16px 0 0;
+}
+
