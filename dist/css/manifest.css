@@ -196,3 +196,6 @@ img.main-logo__img {
   height: auto;
   padding: 0 16px 0 0;
 }
+.text-d-none {
+  text-decoration: none;
+}
