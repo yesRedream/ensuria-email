@@ -184,6 +184,7 @@ img.main-logo__img {
   width: 24px;
   height: 24px;
   height: auto;
+  padding-right: 3px;
 }
 
 .contact-text {
